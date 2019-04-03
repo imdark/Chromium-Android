@@ -2,6 +2,9 @@
 
 # Chromium Android
 
+To install depedecies inside a gnu/linux docker and run from current folder locally
+docker run --rm -it -v $(pwd):/bla -w /bla ubuntu bash -c "apt-get update -y; apt-get install make; make; tmux"
+
 [![Build Status](https://travis-ci.org/kuoruan/Chromium-Android.svg)](https://travis-ci.org/kuoruan/Chromium-Android) [![Release Version](https://img.shields.io/github/release/kuoruan/Chromium-Android.svg)](https://github.com/kuoruan/Chromium-Android/releases/latest) [![Latest Release Download](https://img.shields.io/github/downloads/kuoruan/Chromium-Android/latest/total.svg)](https://github.com/kuoruan/Chromium-Android/releases/latest)
 
 ### Introduction
